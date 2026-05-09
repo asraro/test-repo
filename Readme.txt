@@ -85,3 +85,35 @@ To https://github.com/asraro/test-repo.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
 
+- $ git add .
+
+- $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Readme.txt
+        new file:   read-test.txt
+        new file:   sshkey.txt
+        modified:   test.txt
+
+- Saima@DESKTOP-7FEP0Q3 MINGW64 ~/Documents/Omer/LEARN/Python/Git-Test (main)
+$ git commit -m "Adding more files"
+[main a391348] Adding more files
+ 4 files changed, 135 insertions(+)
+ create mode 100644 Readme.txt
+ create mode 100644 read-test.txt
+ create mode 100644 sshkey.txt
+
+- Saima@DESKTOP-7FEP0Q3 MINGW64 ~/Documents/Omer/LEARN/Python/Git-Test (main)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 2.06 KiB | 703.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/asraro/test-repo.git
+   8901f9e..a391348  main -> main
+
